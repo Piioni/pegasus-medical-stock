@@ -152,7 +152,7 @@ CREATE TABLE `plantas` (
 INSERT INTO `plantas` (`id_planta`, `id_hospital`, `nombre`, `activo`) VALUES
 (1, 1, 'Planta de pediatria ', 0),
 (2, 1, 'Planta de Enfermeria ', 1),
-(3, 1, 'Planta del mamapinga', 0),
+(3, 1, 'Planta de prueba 2', 0),
 (4, 1, 'Planta de Enfermeria 2', 1),
 (5, 1, 'Planta de Manuel', 1),
 (6, 7, 'Planta de prueba', 0),
@@ -277,7 +277,7 @@ INSERT INTO `users` (`id_usuario`, `nombre`, `email`, `password`, `id_rol`, `act
 (1, 'Juan Rangel', 'juan@gmail.com', '$2y$10$9.3fzx6PQL8MxAphoPDGhue1JyLsuAvdIN.yNAPHDPsPt0.xxLrmG', 1, 1),
 (2, 'Erick Quispe', 'erick@gmail.com', '$2y$10$Lzjumt4ft73K4IXwlSR4FuxokW47D261NbSv0szpFzvog.VT55ee.', 2, 1),
 (3, 'Manu', 'manu@gmail.com', '$2y$10$bE/EDEooJCE94umkXjKzZuxDkATn2u2HQ6X8pwTU.EWXtDy5Js8t.', 3, 1),
-(4, 'Alejandro el mamapinga', 'alejandro@gmail.com', '$2y$10$AhYMEH014TyxLkoJIs6NXeSnpM4Bptzvd/Rv7015BV6SEL9jTOemK', 4, 1);
+(4, 'Alejandro', 'alejandro@gmail.com', '$2y$10$AhYMEH014TyxLkoJIs6NXeSnpM4Bptzvd/Rv7015BV6SEL9jTOemK', 4, 1);
 
 -- --------------------------------------------------------
 
